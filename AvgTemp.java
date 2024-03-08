@@ -17,8 +17,13 @@ public static void main(String[] args) {
             System.out.println("The Temperature of day "+(i+1)+ " is: ");
             Temp[i]= consol.nextInt();
             sum=sum+Temp[i];
-
         }
+        int average= sum/days;
+        System.out.println("The average temperature recorded is: "+average);
+        for(int i=0; i<Temp.length; i++){
+            if(Temp[i]>average){
+            System.out.println("The days which have temp higher than average are: "+(i+1));
+        }}
 }
 
 }
