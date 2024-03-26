@@ -11,7 +11,8 @@ public class Exercise {
             }
             
         }
-        return new int[] {a,b};
+        throw new IllegalArgumentException("no such numbers exist");
 }
 }
+
 
