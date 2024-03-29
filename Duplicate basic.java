@@ -1,13 +1,18 @@
-import java.util.*;
-public class duplicate {
-    public static int[] removeDuplicates(int[]arr){
-       for (int i = 0; i < arr.length; i++) {
-        if(arr[i]==arr[i+1]) {
+public class duplicates {
+    public int removeDuplicates(int[] nums) {
+        if (nums.length == 0) {
+            return 0;
         }
-        else{
-            int[] ar=arr;
+ 
+        int i = 0;
+ 
+        for (int j = 1; j < nums.length; j++) {
+            if (nums[j] != nums[i]) {
+                i++;
+                nums[i] = nums[j];
+            }
         }
-
-       } 
+ 
+        return i + 1;
     }
 }
