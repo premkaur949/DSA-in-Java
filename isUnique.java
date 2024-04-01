@@ -4,6 +4,7 @@ class Main {
     int[] intArray = {1,2,3,6,5,6};
     boolean result = mn.isUnique(intArray);
     System.out.println(result);
+    return(result);
   }
 
   // Is Unique
