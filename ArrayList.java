@@ -1,11 +1,19 @@
-
+package ArrayList;
 import java.util.*;
-public class main {
+
+public class arrayL {
     public static void main(String[] args) {
-        ArrayList<Integer> numbers = new ArrayList<Integer>();
-        numbers.add(1);
-        numbers.add(1,4);
-        numbers.add(1,4,6);
+        ArrayList<Integer> numbers= new ArrayList<Integer>();
+        numbers.add(12);
+        numbers.add(13);
+        numbers.add(14);
         System.out.println(numbers);
+        //insertion
+        numbers.add(2,5);
+        System.out.println(numbers);
+        //accessing
+        System.out.println(numbers.get(0));
     }
 }
+
+
