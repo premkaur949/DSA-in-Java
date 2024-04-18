@@ -1,3 +1,4 @@
+
 package ArrayList;
 import java.util.*;
 
@@ -13,6 +14,10 @@ public class arrayL {
         System.out.println(numbers);
         //accessing
         System.out.println(numbers.get(0));
+        //traversing
+        for (int i = 0; i <numbers.size(); i++) {
+            System.out.println( numbers.get(i));
+        }
     }
 }
 
