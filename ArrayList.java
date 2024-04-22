@@ -17,8 +17,12 @@ public class arrayL {
         //traversing
         for (int i = 0; i <numbers.size(); i++) {
             System.out.println( numbers.get(i));
+            break;
         }
     }
+    int index =stringList.indexOf("F");
+    System.out.println("The element in found at index: " + index);
+
 }
 
 
