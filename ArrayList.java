@@ -7,6 +7,7 @@ public class arrayL {
         numbers.add(12);
         numbers.add(13);
         numbers.add(14);
+        numbers.add(15);
         System.out.println(numbers);
         //insertion
         numbers.add(2,5);
