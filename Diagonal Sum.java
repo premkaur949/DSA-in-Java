@@ -1,3 +1,4 @@
+import java.util.*;
 public class Ex2 {
  
         public static int sumDiagonalElements(int[][] array) {
