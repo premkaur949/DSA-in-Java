@@ -1,4 +1,5 @@
 import java.util.*;
+import java.util.math;
 public class Ex2 {
  
         public static int sumDiagonalElements(int[][] array) {
