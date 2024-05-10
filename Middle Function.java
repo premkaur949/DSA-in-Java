@@ -1,3 +1,4 @@
+import java.util.*;
 public class Ex1 {
     public static int[] middle(int[] array) {
         if (array.length <= 2) {
