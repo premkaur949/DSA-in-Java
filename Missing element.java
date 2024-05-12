@@ -1,3 +1,4 @@
+import java.util.*;
 public class Ex3 {
 
     static int findMissingNumberInArray(int[] arr) {
